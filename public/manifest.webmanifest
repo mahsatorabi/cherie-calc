@@ -1,13 +1,15 @@
 {
+  "id": "/",
   "name": "Chérie Calc",
   "short_name": "Chérie Calc",
   "description": "A chic, aesthetic pastel calculator with themes, tape diary, and boutique tools.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "orientation": "portrait",
+  "orientation": "any",
   "background_color": "#fff0f5",
   "theme_color": "#fb7185",
+  "categories": ["utilities", "finance"],
   "icons": [
     {
       "src": "icons/icon-192.png",

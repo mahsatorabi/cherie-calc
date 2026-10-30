@@ -15,7 +15,7 @@ import { TapeDiary } from './components/TapeDiary';
 import { BoutiqueTools } from './components/BoutiqueTools';
 import { SparkleOverlay, useSparkles } from './components/SparkleOverlay';
 import { ThemeSelector } from './components/ThemeSelector';
-import { InstallPrompt } from './components/InstallPrompt';
+import { InstallPrompt, InstallButton } from './components/InstallPrompt';
 import {
   Volume2,
   VolumeX,
@@ -434,6 +434,8 @@ export default function App() {
 
         {/* Zone 3: Single Primary Action & Sensory Toggles */}
         <div className="flex items-center gap-2 shrink-0">
+          <InstallButton />
+
           {/* Sound Toggle */}
           <button
             type="button"
