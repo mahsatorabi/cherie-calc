@@ -1,0 +1,6 @@
+{
+  "name": "Chérie Calc - Aesthetic Girly Calculator",
+  "description": "A chic, aesthetic pastel calculator featuring customizable girly themes, cute sound effects, calculation tape diary, sale discount calculator, and boba bill splitter.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,43 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+.font-rounded {
+  font-family: 'Quicksand', 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+.font-tape {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Girly 3D tactile button depress effect */
+.btn-tactile {
+  transition: transform 0.1s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.1s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-tactile:active {
+  transform: translateY(2px) scale(0.97);
+}
+
+/* Custom scrollbars for the calculation tape */
+.tape-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.tape-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.tape-scroll::-webkit-scrollbar-thumb {
+  background: rgba(220, 150, 180, 0.3);
+  border-radius: 9999px;
+}
+.tape-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(220, 150, 180, 0.6);
+}
